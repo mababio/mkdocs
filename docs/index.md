@@ -1,17 +1,29 @@
-# Welcome to MkDocs
+![Build Status](https://travis-ci.org/mababio/raspi_thermostat.svg?branch=master)
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
 
-## Commands
+# raspi_thermostat
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+## Summary
+Building a web based thermostat running on a raspberry pi!
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+## Hardware:
+
+1. Raspberry Pi
+2. temperature sensor
+3. Relay module
+
+## Software Stack
+
+1. Python3
+2. Flask
+
+
+
+## Installation
+
+1. Make sure you have python3 &  pip3 Installed
+2. ``` git clone https://github.com/mababio/raspi_thermostat.git ```
+3. ``` python3 setup.py install ```
+4. visit localhost:5000
