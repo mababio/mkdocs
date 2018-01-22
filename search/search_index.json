@@ -1,32 +1,32 @@
 {
     "docs": [
         {
-            "location": "/raspi_thermostat_doc/",
+            "location": "/",
             "text": "raspi_thermostat\n\n\nSummary\n\n\nBuilding a web based thermostat running on a raspberry pi!\n\n\nHardware:\n\n\n\n\nRaspberry Pi\n\n\ntemperature sensor\n\n\nRelay module\n\n\n\n\nSoftware Stack\n\n\n\n\nPython3\n\n\nFlask\n\n\n\n\nInstallation\n\n\n\n\nMake sure you have python3 &  pip3 Installed\n\n\ngit clone https://github.com/mababio/raspi_thermostat.git\n\n\npython3 setup.py install\n\n\nvisit localhost:5000",
             "title": "raspi_thermostat"
         },
         {
-            "location": "/raspi_thermostat_doc/#raspi_thermostat",
+            "location": "/#raspi_thermostat",
             "text": "",
             "title": "raspi_thermostat"
         },
         {
-            "location": "/raspi_thermostat_doc/#summary",
+            "location": "/#summary",
             "text": "Building a web based thermostat running on a raspberry pi!",
             "title": "Summary"
         },
         {
-            "location": "/raspi_thermostat_doc/#hardware",
+            "location": "/#hardware",
             "text": "Raspberry Pi  temperature sensor  Relay module",
             "title": "Hardware:"
         },
         {
-            "location": "/raspi_thermostat_doc/#software-stack",
+            "location": "/#software-stack",
             "text": "Python3  Flask",
             "title": "Software Stack"
         },
         {
-            "location": "/raspi_thermostat_doc/#installation",
+            "location": "/#installation",
             "text": "Make sure you have python3 &  pip3 Installed  git clone https://github.com/mababio/raspi_thermostat.git  python3 setup.py install  visit localhost:5000",
             "title": "Installation"
         },
