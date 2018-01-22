@@ -1,0 +1,84 @@
+{
+    "docs": [
+        {
+            "location": "/raspi_thermostat_doc/",
+            "text": "raspi_thermostat\n\n\nSummary\n\n\nBuilding a web based thermostat running on a raspberry pi!\n\n\nHardware:\n\n\n\n\nRaspberry Pi\n\n\ntemperature sensor\n\n\nRelay module\n\n\n\n\nSoftware Stack\n\n\n\n\nPython3\n\n\nFlask\n\n\n\n\nInstallation\n\n\n\n\nMake sure you have python3 &  pip3 Installed\n\n\ngit clone https://github.com/mababio/raspi_thermostat.git\n\n\npython3 setup.py install\n\n\nvisit localhost:5000",
+            "title": "raspi_thermostat"
+        },
+        {
+            "location": "/raspi_thermostat_doc/#raspi_thermostat",
+            "text": "",
+            "title": "raspi_thermostat"
+        },
+        {
+            "location": "/raspi_thermostat_doc/#summary",
+            "text": "Building a web based thermostat running on a raspberry pi!",
+            "title": "Summary"
+        },
+        {
+            "location": "/raspi_thermostat_doc/#hardware",
+            "text": "Raspberry Pi  temperature sensor  Relay module",
+            "title": "Hardware:"
+        },
+        {
+            "location": "/raspi_thermostat_doc/#software-stack",
+            "text": "Python3  Flask",
+            "title": "Software Stack"
+        },
+        {
+            "location": "/raspi_thermostat_doc/#installation",
+            "text": "Make sure you have python3 &  pip3 Installed  git clone https://github.com/mababio/raspi_thermostat.git  python3 setup.py install  visit localhost:5000",
+            "title": "Installation"
+        },
+        {
+            "location": "/twilio_name_doc/",
+            "text": "Twilio number lookup\n\n\nSummary\n\n\n\n\nI've wrapped the Twilio lookup python API into a Linux command. So logging into your Twilio account and navigating to the lookup feature and then entering in your query, you can just do this:\n\n\n\n\nInstallation\n\n\n\n\n\n\ngit clone https://github.com/mababio/python_stuff.git\n\n\nNavigate to Twilio_Name directory\n\n\nFind config.ini & add your Twilio credentials\n\n\npython3 setup.py install\n\n\n\n\n\n\nUsage\n\n\n\n\ntwil_num [1234567]",
+            "title": "twilio name"
+        },
+        {
+            "location": "/twilio_name_doc/#twilio-number-lookup",
+            "text": "",
+            "title": "Twilio number lookup"
+        },
+        {
+            "location": "/twilio_name_doc/#summary",
+            "text": "I've wrapped the Twilio lookup python API into a Linux command. So logging into your Twilio account and navigating to the lookup feature and then entering in your query, you can just do this:",
+            "title": "Summary"
+        },
+        {
+            "location": "/twilio_name_doc/#installation",
+            "text": "git clone https://github.com/mababio/python_stuff.git  Navigate to Twilio_Name directory  Find config.ini & add your Twilio credentials  python3 setup.py install",
+            "title": "Installation"
+        },
+        {
+            "location": "/twilio_name_doc/#usage",
+            "text": "twil_num [1234567]",
+            "title": "Usage"
+        },
+        {
+            "location": "/resume_updater_doc/",
+            "text": "Resume Updater\n\n\nSummary\n\n\nI put together a tool that will automatically update my resume hosted on AWS S3 platform with the local copy of my resume.\n\n\nTech stack:\n-  Python3\n- boto3 python module\n- when-changed(https://github.com/joh/when-changed) python module\n- Unix ampersand background processor\n\n\nInstallation\n\n\n\n\nMake sure you have your S3 config file setup https://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html\n\n\nMake sure you put your twilio creds in the config.ini file\n\n\ngit clone https://github.com/mababio/python_stuff.git\n\n\nNavigate to resume_updater directory\n\n\npython3 setup.py install\n\n\npip3 installhttps://github.com/joh/when-changed/archive/master.zip\n\n\n\n\nUsage\n\n\n\n\n\n\nRun this  \nwhen-changed [FILE_Trigger] -c 'resume_updater [FILE_TO_Upload]' &\n\n\n\n\n\n\nAnd any changes made to  \n[FILE_Trigger]\n will trigger \n[FILE_TO_Upload]\n to be uploaded\n\n\n\n\n\n\nSo to have your resume automatically updated in S3, you'll need to make the \n[FILE_Trigger]\n be the resume file as well as \n[FILE_TO_Upload]",
+            "title": "resume updater"
+        },
+        {
+            "location": "/resume_updater_doc/#resume-updater",
+            "text": "",
+            "title": "Resume Updater"
+        },
+        {
+            "location": "/resume_updater_doc/#summary",
+            "text": "I put together a tool that will automatically update my resume hosted on AWS S3 platform with the local copy of my resume.  Tech stack:\n-  Python3\n- boto3 python module\n- when-changed(https://github.com/joh/when-changed) python module\n- Unix ampersand background processor",
+            "title": "Summary"
+        },
+        {
+            "location": "/resume_updater_doc/#installation",
+            "text": "Make sure you have your S3 config file setup https://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html  Make sure you put your twilio creds in the config.ini file  git clone https://github.com/mababio/python_stuff.git  Navigate to resume_updater directory  python3 setup.py install  pip3 installhttps://github.com/joh/when-changed/archive/master.zip",
+            "title": "Installation"
+        },
+        {
+            "location": "/resume_updater_doc/#usage",
+            "text": "Run this   when-changed [FILE_Trigger] -c 'resume_updater [FILE_TO_Upload]' &    And any changes made to   [FILE_Trigger]  will trigger  [FILE_TO_Upload]  to be uploaded    So to have your resume automatically updated in S3, you'll need to make the  [FILE_Trigger]  be the resume file as well as  [FILE_TO_Upload]",
+            "title": "Usage"
+        }
+    ]
+}
