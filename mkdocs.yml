@@ -1,0 +1,6 @@
+site_name: System tools
+
+pages:
+    - 'raspi_thermostat': 'raspi_thermostat_doc.md'
+    - 'twilio name': 'twilio_name_doc.md'
+    - 'resume updater': 'resume_updater_doc.md'
